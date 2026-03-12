@@ -128,24 +128,24 @@
 //    }
 ////} 
 ///sual 5
-//class Program
-//{
-//    public static void Main()
-//    {
-//        int x = 6;
-//        int y = 12;
-//        enboyukeded(x, y);
-//    }
-//    public static void enboyukeded(int x,int y)
-//    {
-//        if (x > y)
-//        {
-//            Console.WriteLine(x *10+y);
-//        }
-//        else
-//        {
-//            Console.WriteLine(y *10+x);
-//        }
+class Program
+{
+    public static void Main()
+    {
+        int x = 6;
+        int y = 12;
+        enboyukeded(x, y);
+    }
+    public static void enboyukeded(int x, int y)
+    {
+        if (x > y)
+        {
+            Console.WriteLine(x * 10 + y);
+        }
+        else
+        {
+            Console.WriteLine(y * 10 + x);
+        }
 
-//    }
-//}
+    }
+}
